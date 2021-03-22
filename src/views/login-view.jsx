@@ -42,7 +42,7 @@ export default class LoginView extends React.Component {
   }
 
   render() {
-    var submitClasses = 'blue';
+    var submitClasses = 'orange';
     if (this.props.disabled) {
       submitClasses += ' disabled';
     }

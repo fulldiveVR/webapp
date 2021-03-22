@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl';
 
 import Tinode from 'tinode-sdk';
 
-import { APP_NAME } from '../config.js';
+import { APP_NAME } from '../../config.js';
 
 export default class LogoView extends React.PureComponent {
   render() {
